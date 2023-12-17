@@ -1,0 +1,222 @@
+/*---Default---*/
+html {
+    scroll-behavior: smooth;
+}
+body, html {
+    height: 100%;
+    background-color: #1B2B74;
+    margin: 0;
+}
+
+/*---Main Stuff---*/
+.whatcontent-section {
+    display: block;
+    background: #1B2B74;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.whatcontent-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+.whatcontent-div-1 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.whatcontent-p-1 {
+    font-family: Calistoga, serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #F1C232;
+}
+.whatcontent-div-2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.whatcontent-p-2 {
+    font-family: Calistoga, serif;
+    font-size: 20px;
+    line-height: 35px;
+    color: #F1C232;
+}
+.whatcontent-div-3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.whatcontent-p-3 {
+    display: block;
+    font-family: Calistoga, serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #F1C232;
+    margin-bottom: 0;
+}
+.vlog1-section {
+    display: block;
+    background: #F1C232;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.vlog1-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 10px;
+}
+.vlog1-div1 {
+    align-items: center;
+    border: 10px solid #1B2B74; 
+    border-radius: 20px;
+    min-width: 400px;
+    height: 224px;
+    overflow: hidden;
+}
+.vlogs-thumbnail {
+    transition: transform .3s, filter .3s;
+}
+.vlogs-thumbnail:hover {
+    transform: scale(1.05);
+    filter: brightness(90%);
+}
+.vlog1-container2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.vlog1-div2 {
+    font-family: Calistoga, Serif;
+    color: #1E1E1E;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.vlog1-div3 {
+    font-family: Calistoga, Serif;
+    color: #1E1E1E;
+    font-size: 20px;
+}
+.vlog2-section {
+    display: block;
+    background: #1B2B74;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.vlog2-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 10px;
+}
+.vlog2-div1 {
+    align-items: center;
+    border: 10px solid #F1C232; 
+    border-radius: 20px;
+    min-width: 400px;
+    height: 224px;
+    overflow: hidden;
+}
+.vlog2-container2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.vlog2-div2 {
+    font-family: Calistoga, Serif;
+    color: #F1C232;
+    font-size: 40px;
+    margin-bottom: 10px;
+} 
+.vlog2-div3 {
+    font-family: Calistoga, Serif;
+    color: #F1C232;
+    font-size: 20px;
+    line-height: 35px;
+}
+.vlog1-div3-2 {
+    font-family: Calistoga, Serif;
+    color: #1E1E1E;
+    font-size: 40px;
+}
+
+.vlog3-section {
+    display: block;
+    background: #F1C232;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.vlog3-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 10px;
+}
+.vlog3-div1 {
+    align-items: center;
+    border: 10px solid #1B2B74; 
+    border-radius: 20px;
+    min-width: 400px;
+    height: 224px;
+    overflow: hidden;
+}
+.vlog3-container2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.vlog3-div2 {
+    font-family: Calistoga, Serif;
+    color: #1E1E1E;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.vlog3-div3 {
+    font-family: Calistoga, Serif;
+    color: #1E1E1E;
+    font-size: 20px;
+}
+
+
+.ytbutton-section {
+    display: block;
+    background-color: #1B2B74;
+    Padding-top: 18px;
+    padding-bottom: 18px;
+}
+.ytbutton-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 36px; 
+    padding-right: 36px;
+}
+.ytbutton-button {
+    display: block;
+    border: solid #F1C232;
+    border-radius: 6px;
+    background-color: none;
+    text-decoration: none;
+    width: 550px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-family: Comfortaa, sans-serif;
+    font-size: 15px;
+    color: #F1C232;
+    text-align: center;
+    transition: background-color .1s, color .1s, box-shadow .1s;
+}
+.ytbutton-button:hover {
+    background-color: #F1C232;
+    color: #1B2B74;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .20);
+}
+.ytbutton-button:active {
+    border: solid #f1e6b8df;
+    background-color: #f1e6b8df;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, .20);
+}

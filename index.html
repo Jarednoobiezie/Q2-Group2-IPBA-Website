@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/125738eb60.js" crossorigin="anonymous"></script>
+  <script>
+  $(document).ready(function(){
+    $("a").on('click', function(event) {
+
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        var hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          window.location.hash = hash;
+        });
+      } 
+    });
+  });
+  </script>
+</head>
+<body>
+
+<!----------SideNav---------->
+<div class="sidenav">
+  <div class="sidelogo-container">
+    <img class="sidelogo" src="PadayonTitle.png" width="150px">
+  </div>
+  <div class="pages-div">
+    <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+    <a href="ourvlogs.html"><i class="fa-solid fa-video"></i>Our Vlogs</a>
+    <a href="Our Products.html"><i class="fa-solid fa-shop"></i>Padayon! Store</a>
+    <a href="itsus.html"><i class="fa-solid fa-user"></i>It's us</a>
+  </div>
+  <div class="socials-container">
+    <div class="socials-div1">
+      Our Socials:
+    </div>
+    <div class="socials-div2">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
+</div>
+
+<!----------Main Stuff---------->
+<div class="main" id="gohome">
+  
+  <header> 
+    <img src="Welcome.gif" class="background">
+  </header>
+
+  <div class="hello-section">
+    <div class="hello-container">
+      <div class="hello-div-1">
+        <span class="hello-p-1">Hello, Welcome to PADAYON!</span>
+      </div>
+      <div class="hello-div-2">
+        <span class="hello-p-2">PADAYON!' is our way of saying we're all about student life, study tips, self-improvement, and other educational stuff. So, if you hear PADAYON!, think of it as your go-to for learning and growth, both mentally and physically. Prepare for our short adventure as we share our knowledge with other students and explore the exciting world of PADAYON!</span>
+      </div>
+    </div>
+  </div>
+
+  <img src="Random.gif" class="RandomPictureOfPadyonAfterHello">
+
+  <div class="what-section">
+    <div class="what-container">
+        <span class="what-p-1">What is PADAYON?</span>
+    </div>
+  </div>
+
+  <div class="what-section-2" style="background-image: url('Images/YellowPaperYe.png');">
+    <div class="what-container-2">
+      <div class="what-div-1">
+        <img src="PadayonLogo.png" class="WhatImg">
+      </div>
+      <div class="what-div-2">
+        <span class="what-p-2"> 
+          Padayon is a term meaning 'to continue,' that embodies our educational content. This message reminds everyone, especially students, to continue working hard. Regardless of the challenges, let this serve as a source of motivation, encouraging all to remain dedicated and persevere in the pursuit of their goals. In the Visayan Language, "Padayon" means to "carry on," and this reflects our commitment to supporting students in overcoming certain problems, good or worse, we focus on giving education as a top priority. So, if you hear PADAYON!, think of it as your go-to for learning and growth, both mentally and physically. 
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="introvid-section">
+    <div class="introvid-container">
+      <div class="introvid-div"> 
+        <iframe class="introvid-main" src="https://www.youtube.com/embed/tZHKyU_f4TE?si=sy46w2IKOEj6SOng&amp;controls=1" style="border-radius:25px; border: 2px solid #F1C232;" title="Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="watchnow-section">
+    <div class="watchnow-container">
+      <div class="watchnow-div">
+        <a class="watchnow-button" href="https://www.youtube.com/channel/UCdEYPKoeF7LFGK4dvY-dqSQ" target="_blank">
+          <span class="watchnow-button-p">Watch Now!</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="end-section">
+    <div class="end-container">
+      <a href="#gohome">
+        <img src="PadayonTitle.png" class="gohomeimg">
+      </a>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html> 
