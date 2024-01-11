@@ -1,0 +1,130 @@
+.behind-section {
+    display: block;
+    background-color: #1B2B74;
+    Padding-top: 48px;
+    padding-bottom: 48px;
+}
+.behind-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+.behind-p-1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Calistoga, Serif;
+    color: #F1C232;
+}
+
+
+.people-section {
+    display: block;
+    background-color: #F1C232;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.people-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.people-div-1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mem1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.mem1-img-div {
+    width: 200px;
+    height: 197px;
+    border: 6px solid #1B2B74;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.mem1-desc-div {
+    width: 400px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Calistoga, serif;
+    font-weight: bold;
+    color: #1E1E1E;
+}
+.mem1-name-div {
+    text-align: center;
+    font-size: 20px;
+    font-family: Calistoga, serif;
+    color: #1E1E1E;
+}
+.mem1-role-div {
+    text-align: center;
+    font-size: 15px;
+    font-family: Calistoga, serif;
+    color: #1E1E1E;
+}
+
+
+.people-div-2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-top: 40px;
+}
+.mem2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+.mem2-img-div {
+    width: 160px;
+    height: 160px;
+    border: 6px solid #1B2B74;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.mem2-desc-div {
+    width: 250px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Calistoga, serif;
+    font-weight: bold;
+    color: #1E1E1E;
+}
+.mem2-name-div {
+    text-align: center;
+    font-size: 16px;
+    font-family: Calistoga, serif;
+    color: #1E1E1E;
+}
+.mem2-role-div {
+    text-align: center;
+    font-size: 12px;
+    font-family: Calistoga, serif;
+    color: #1E1E1E;
+}
+
+.people-div-3-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-top: 40px;
+}

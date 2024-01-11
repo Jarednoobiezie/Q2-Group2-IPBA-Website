@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>It's us!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="itsus.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/125738eb60.js" crossorigin="anonymous"></script>
+  <script>
+  $(document).ready(function(){
+    $("a").on('click', function(event) {
+
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        var hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          window.location.hash = hash;
+        });
+      } 
+    });
+  });
+  </script>
+</head>
+<body>
+
+<!----------SideNav---------->
+<div class="sidenav">
+  <div class="sidelogo-container">
+    <img class="sidelogo" src="PadayonTitle.png" width="150px">
+  </div>
+  <div class="pages-div">
+    <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+    <a href="ourvlogs.html"><i class="fa-solid fa-video"></i>Our Vlogs</a>
+    <a href="Our Products.html"><i class="fa-solid fa-shop"></i>Padayon! Store</a>
+    <a href="itsus.html"><i class="fa-solid fa-user"></i>It's us</a>
+  </div>
+  <div class="socials-container">
+    <div class="socials-div1">
+      Our Socials:
+    </div>
+    <div class="socials-div2">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
+</div>
+
+<!----------Main Stuff---------->
+<div class="main">
+
+  <header> 
+    <img src="itsus.gif" class="background">
+  </header>
+
+  <div class="behind-section">
+    <div class="behind-container">
+      <div class="behind-div">
+        <span class="behind-p-1">People Behind</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="people-section">
+    <div class="people-container">
+      <div class="people-div-1-container">
+        <div class="mem1-container">
+          <div class="mem1-img-div">
+            <img src="Jared.jpg" alt="jared" width="200px">
+          </div>  
+          <div class="mem1-desc-div">
+            <span>"Have u met Jared? The one who took you away from me"</span>
+          </div>
+          <div class="mem1-name-div">
+            <span>France Jared</span>
+          </div>
+          <div class="mem1-role-div">
+            <span>(Creator of Web)</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="people-div-2-container">
+        <div class="mem2-container">
+          <div class="mem2-img-div">
+            <img src="Keith.jpg" alt="keith" width="160px">
+          </div>  
+          <div class="mem2-desc-div">
+            <span>"they filed a restraining order against my keyboard"</span>
+          </div>
+          <div class="mem2-name-div">
+            <span>Keith Derek</span>
+          </div>
+          <div class="mem2-role-div">
+            <span>(Moderator of Group, Logo Creator)</span>
+          </div>
+        </div>
+
+        <div class="mem2-container">
+          <div class="mem2-img-div">
+            <img src="Angelica.jpg" alt="keith" width="160px">
+          </div>  
+          <div class="mem2-desc-div">
+            <span>"If there's a will, there's a water"</span>
+          </div>
+          <div class="mem2-name-div">
+            <span>Angelica Mae</span>
+          </div>
+          <div class="mem2-role-div">
+            <span>(Leader of Group)</span>
+          </div>
+        </div>
+
+        <div class="mem2-container">
+          <div class="mem2-img-div">
+            <img src="Bianca.jpg" alt="bianca" width="160px">
+          </div>  
+          <div class="mem2-desc-div">
+            <span>"slr, in game kasi ako sa ganda-gandahan"</span>
+          </div>
+          <div class="mem2-name-div">
+            <span>Sophia Bianca</span>
+          </div>
+          <div class="mem2-role-div">
+            <span>(Co-leader of Group)</span>
+          </div>
+        </div>
+
+        <div class="mem2-container">
+          <div class="mem2-img-div">
+            <img src="Jian.jpg" alt="Jian" width="160px">
+          </div>  
+          <div class="mem2-desc-div">
+            <span>"Ano tawag sa gupit ni Kathryn? Hair Kath"</span>
+          </div>
+          <div class="mem2-name-div">
+            <span>Jian Psalm</span>
+          </div>
+          <div class="mem2-role-div">
+            <span>(Logo Creator)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="people-div-3-container">
+        <div class="mem2-container">
+          <div class="mem2-img-div">
+            <img src="Paul.jpg" alt="Paul" width="160px">
+          </div>  
+          <div class="mem2-desc-div">
+            <span>"life is short. smile while you still have teeth"</span>
+          </div>
+          <div class="mem2-name-div">
+            <span>Paul Andrew</span>
+          </div>
+          <div class="mem2-role-div">
+            <span>(Video Member)</span>
+          </div>
+        </div>
+
+        <div class="mem2-container">
+          <div class="mem2-img-div">
+            <img src="Cadence.jpg" alt="Cadence" width="160px">
+          </div>  
+          <div class="mem2-desc-div">
+            <span>"insert quote here</span>
+          </div>
+          <div class="mem2-name-div">
+            <span>Cadence Sofia</span>
+          </div>
+          <div class="mem2-role-div">
+            <span>(Video Member)</span>
+          </div>
+        </div>
+
+        <div class="mem2-container">
+          <div class="mem2-img-div">
+            <img src="Andrea.jpg" alt="Andrea" width="160px">
+          </div>  
+          <div class="mem2-desc-div">
+            <span>"Felt cute, might delete later"</span>
+          </div>
+          <div class="mem2-name-div">
+            <span>Andrea Ajayi</span>
+          </div>
+          <div class="mem2-role-div">
+            <span>(Video Member)</span>
+          </div>
+        </div>
+
+        <div class="people-div-2-container">
+          <div class="mem2-container">
+            <div class="mem2-img-div">
+              <img src="Rhian.jpg" alt="Rhian" width="160px">
+            </div>  
+            <div class="mem2-desc-div">
+              <span>"insert quote here"</span>
+            </div>
+            <div class="mem2-name-div">
+              <span>Rhian Alexa</span>
+            </div>
+            <div class="mem2-role-div">
+              <span>(Video Member)</span>
+            </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
